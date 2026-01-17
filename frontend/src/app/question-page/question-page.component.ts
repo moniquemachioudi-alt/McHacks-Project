@@ -95,7 +95,7 @@ export class QuestionPageComponent implements OnInit {
       question: this.question
     };
 
-    this.http.post<QuestionResponse>('http://localhost:8000/api/question', payload)
+    this.http.post<QuestionResponse>('/api/question', payload)
       .subscribe({
         next: (data) => {
           this.loading = false;

@@ -18,7 +18,7 @@
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
-            "assets": ["src/favicon.ico", "src/assets"],
+            "assets": ["src/favicon.ico"],
             "styles": ["src/styles.css"],
             "scripts": []
           }
@@ -32,5 +32,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "616e5eab-03fb-4081-b4f4-aec0760e030e"
   }
 }
